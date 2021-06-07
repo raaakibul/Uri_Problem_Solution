@@ -1,13 +1,13 @@
 #include<iostream>
 #include<stdio.h>
+
 using namespace std;
 int main(){
-    double a,b,c.avg;
+    double a,b,avg;
     cin >> a;
     cin >> b;
-    cin >> c;
+    avg = ((a*3.5)+(b*7.5))/(3.5+7.5);
 
-    avg = ((a*2)+(b*3)+(c*5))/(2+3+5);
-    printf("MEDIA = %.1lf\n",avg);
+    printf("MEDIA = %.5lf\n",avg);
 return 0;
 }
